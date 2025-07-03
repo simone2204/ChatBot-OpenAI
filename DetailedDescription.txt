@@ -9,6 +9,8 @@ LANGCHAIN_OPENAI: mainly used for OpenAI Embeddings and ChatOpenAI, in order to 
 LANGCHAIN_COMMUNITY.VECTORSTORES: used for the FAISS (Facebook AI Similarity Search) to create the index of the text. Essential.
 LANGCHAIN.TEXT_SPLITTER: used to split the text in chunks.
 
+The programme flow also applies to implementation with the LLAMA model; only the prompt setting varies.
+
 Program Flow Explanation
 The first method called is initUI(), which initializes the main graphical interface of the application
 using PyQt5 widgets.
