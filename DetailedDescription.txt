@@ -83,7 +83,7 @@ The program follows a clean and modular structure:
 - The combination of FAISS + LangChain + OpenAI enables powerful retrieval-augmented question
 answering (RAG).
 - The chatbot provides document-based answers without requiring the model to "see" the entire PDF
-at o
+at once.
 
 
 
