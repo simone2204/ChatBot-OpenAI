@@ -140,11 +140,7 @@ class MainWindow(QMainWindow):
         self.load_pdf_button = QPushButton("Carica PDF", self)
         self.load_pdf_button.setFont(QFont("Arial", 12))
         self.load_pdf_button.setFixedSize(200, 80)
-        self.load_pdf_button.setStyleSheet(
-            "background-color: #e3f3fd; border-radius: 15px; padding: 10px;"
-            "cursor: pointer;"
-            "transition: background-color 0.3s ease;"
-        )
+
         self.load_pdf_button.setStyleSheet(
             "QPushButton:hover { background-color: #c2e0f4; }"
         )
@@ -172,9 +168,7 @@ class MainWindow(QMainWindow):
         self.query_button = QPushButton("Invia", self)
         self.query_button.setFont(QFont("Arial", 12))
         self.query_button.setFixedSize(600, 80)
-        self.query_button.setStyleSheet("background-color: #e3f3fd; border-radius: 15px; padding: 100px;"
-                                        "cursor: pointer;"
-                                        "transition: background-color 0.3s ease;")
+
         self.query_button.setStyleSheet(
             "QPushButton:hover {background-color: #c2e0f4; }"
         )
